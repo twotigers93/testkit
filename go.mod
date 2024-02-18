@@ -6,8 +6,6 @@ require (
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/pkg/errors v0.9.1
 	github.com/twotigers93/tidb v0.0.0-20240215071853-08c18cbb41ab
-	gorm.io/driver/mysql v1.5.4
-	gorm.io/gorm v1.25.7
 )
 
 require (
@@ -53,6 +51,7 @@ require (
 	github.com/dgryski/go-farm v0.0.0-20200201041132-a6ae2369ad13 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
+	github.com/elastic/gosigar v0.14.2 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/fatih/color v1.15.0 // indirect
 	github.com/go-asn1-ber/asn1-ber v1.5.4 // indirect
@@ -77,8 +76,6 @@ require (
 	github.com/iancoleman/strcase v0.2.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/jedib0t/go-pretty/v6 v6.2.2 // indirect
-	github.com/jinzhu/inflection v1.0.0 // indirect
-	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/joho/sqltocsv v0.0.0-20210428211105-a6d6801d59df // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
