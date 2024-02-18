@@ -35,6 +35,14 @@ const (
 	defaultRetryTime = 10
 )
 
+func SetDBDir(path string) {
+	dbDir = path
+}
+
+func SetlogFile(path string) {
+	logFile = path
+}
+
 func newTestConfig() (*config.Config, error) {
 	// 如果运行时是 macos 系统
 	if runtime.GOOS == "darwin" {
